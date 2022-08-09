@@ -22,6 +22,8 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "box1 box2" "box3 box3";
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 
 .box1 {
